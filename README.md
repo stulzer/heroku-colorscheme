@@ -1,6 +1,8 @@
 Heroku Colorscheme
 =========================
 
+Color scheme inspired on Heroku dashboard colors. :)
+
 ### heroku.vim
 - For gVim, MacVim just works!
 
