@@ -20,6 +20,9 @@ Heroku Colorscheme
 ### vim
 ![Ruby Code in Heroku Colorscheme](https://github.com/stulzer/heroku-colorscheme/raw/master/images/heroku-terminal.png)
 
+### TextMate (WIP)
+![Ruby Code in Heroku Colorscheme](https://github.com/stulzer/heroku-colorscheme/raw/master/images/TextMate.png)
+
 ### iTerm2
 ![Git diff + ls -lahG](https://github.com/stulzer/heroku-colorscheme/raw/master/images/iTerm2.png)
 
