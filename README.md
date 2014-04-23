@@ -11,7 +11,6 @@ Heroku Colorscheme
 - Hex color conversion functions borrowed from the theme 'Desert256'"
 
 ## Screenshots
-=========================
 code: Ruby
 font: Inconsolata
 
