@@ -18,7 +18,7 @@ syntax reset
 
 let g:colors_name = "heroku"
 
-if has("gui_running") || &t_Co == 88 || &t_Co == 256
+if has("gui_running")
 	" Returns an approximate grey index for the given grey level
 	fun <SID>grey_number(x)
 		if &t_Co == 88
