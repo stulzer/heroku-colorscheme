@@ -22,5 +22,5 @@ font: Inconsolata
 ![Ruby Code in Heroku Colorscheme](https://github.com/stulzer/heroku-colorscheme/raw/master/images/heroku-terminal.png)
 
 ### iTerm2
-![Git diff + ls -lahG](https://github.com/stulzer/heroku-colorscheme/raw/master/images/iterm2.png)
+![Git diff + ls -lahG](https://github.com/stulzer/heroku-colorscheme/raw/master/images/iTerm2.png)
 
