@@ -237,7 +237,7 @@ if &t_Co == 88 || &t_Co == 256
 
   " Vim Highlighting
   highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
-  call <SID>X("NonText", s:foreground, "", "")
+  call <SID>X("NonText", s:comment, "", "")
   call <SID>X("SpecialKey", s:selection, "", "")
   call <SID>X("Search", s:yellow, s:background, "")
   call <SID>X("TabLine", s:foreground, s:background, "reverse")
