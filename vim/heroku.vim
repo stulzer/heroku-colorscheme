@@ -14,6 +14,7 @@ let s:window = "17171d"
 
 set background=dark
 hi clear
+hi clear SpellBad
 syntax reset
 
 let g:colors_name = "heroku"
@@ -317,6 +318,19 @@ if has("gui_running")
   call <SID>X("javaScriptRepeat", s:purple, "", "")
   call <SID>X("javaScriptNumber", s:orange, "", "")
   call <SID>X("javaScriptMember", s:orange, "", "")
+
+  " CoffeeScript Highlighting
+  call <SID>X("coffeeKeyword", s:orange, "", "")
+  call <SID>X("coffeeRepeat", s:orange, "", "")
+  call <SID>X("coffeeConditional", s:orange, "", "")
+
+  call <SID>X("coffeeParen", s:aqua, "", "")
+  call <SID>X("coffeeParens", s:blue, "", "")
+  call <SID>X("coffeeBracket", s:aqua, "", "")
+  call <SID>X("coffeeBrackets", s:blue, "", "")
+
+  call <SID>X("coffeeDotAccess", s:aqua, "", "")
+  call <SID>X("coffeeStatement", s:red, "", "")
 
   " HTML Highlighting
   call <SID>X("htmlTag", s:red, "", "")
