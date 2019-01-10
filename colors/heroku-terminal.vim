@@ -347,6 +347,9 @@ if &t_Co == 88 || &t_Co == 256
   call <SID>X("sassMediaQuery", s:yellow, "", "")
   call <SID>X("sassMixinName", s:orange, "", "")
 
+  " CSS Highlighting
+  call <SID>X("cssTagName", s:blue, "", "")
+
   " HTML Highlighting
   call <SID>X("htmlTag", s:red, "", "")
   call <SID>X("htmlTagName", s:red, "", "")
