@@ -340,6 +340,13 @@ if &t_Co == 88 || &t_Co == 256
   call <SID>X("coffeeDotAccess", s:aqua, "", "")
   call <SID>X("coffeeStatement", s:red, "", "")
 
+  " SASS Highlighting
+  call <SID>X("sassCssAttribute", s:yellow, "", "")
+  call <SID>X("sassDefinition", s:blue, "", "")
+  call <SID>X("sassProperty", s:blue, "", "")
+  call <SID>X("sassMediaQuery", s:yellow, "", "")
+  call <SID>X("sassMixinName", s:orange, "", "")
+
   " HTML Highlighting
   call <SID>X("htmlTag", s:red, "", "")
   call <SID>X("htmlTagName", s:red, "", "")
