@@ -341,11 +341,11 @@ if &t_Co == 88 || &t_Co == 256
   call <SID>X("coffeeStatement", s:red, "", "")
 
   " SASS Highlighting
-  call <SID>X("sassCssAttribute", s:yellow, "", "")
+  call <SID>X("sassCssAttribute", s:orange, "", "")
   call <SID>X("sassDefinition", s:blue, "", "")
   call <SID>X("sassProperty", s:blue, "", "")
   call <SID>X("sassMediaQuery", s:yellow, "", "")
-  call <SID>X("sassMixinName", s:orange, "", "")
+  call <SID>X("sassMixinName", s:aqua, "", "")
 
   " CSS Highlighting
   call <SID>X("cssTagName", s:blue, "", "")
